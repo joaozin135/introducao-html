@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 2</title>
+</head>
+
+<body>
+    <table border="1" style="width: 20%">
+        <tr style="text-align: left;">
+            <td>Nome:</td>
+            <td><input type="text" name="nome" placeholder="Insira o seu nome"></td>
+        </tr>
+        <tr>
+            <td>Sexo:</td>
+            <td><select name="sexo">
+                    <optgroup label="Selecione:">
+                        <option value="masculine">Masculino</option>
+                        <option value="feminine">Feminino</option>
+                    </optgroup>
+                </select></td>
+        </tr>
+        <tr>
+            <td>Profissão:</td>
+            <td><input type="text" name="nome" placeholder="Insira o sua profissão"></td>
+        </tr>
+        <tr>
+            <td>Idade:</td>
+            <td><input type="text" name="profession"></td>
+        </tr>
+        <tr>
+            <td>Descrição</td>
+            <td><textarea name="mensagem" rows="4" cols="30"></textarea></td>
+        </tr>
+        <tr>
+            <td>Escolaridade</td>
+            <td style="font-size: 11px;"><input type="radio" name="high school">Ensino Médio
+                <input type="radio" name="graduate">Graduado
+                <input type="radio" name="postgraduate">Pós Graduado
+            </td>
+        </tr>
+        <tr>
+            <td>Esportes</td>
+            <td><input type="checkbox">futebol
+                <input type="checkbox">Basquete
+                <input type="checkbox">volei
+                <input type="checkbox">Atletismo
+                <input type="checkbox">Artes Marciais
+                <input type="checkbox">Musculação
+                <input type="checkbox">Outros
+            </td>
+        </tr>
+    </table>
+
+    <button type="reset" onclick="alert('Formulário enviado!')">Enviar Formulário</button>
+
+</body>
+
+</html>

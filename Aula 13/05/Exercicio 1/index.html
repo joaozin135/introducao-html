@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+</head>
+<body>
+    <Form name="exercicioOne">
+
+        <label for="name">
+            <b>Name:</b> <br><input type="text" name="nome" autofocus placeholder="Digite seu nome"><br>
+        </label>
+
+        <label for="description">
+            <b>Descrição:</b> <br><textarea name="mensagem" rows="4" cols="30"></textarea><br>
+        </label>
+
+        <label for="city">
+            <b>Cidade:</b> 
+            <select name="city">
+                <option value="cityOne">União da Vitória</option>
+                <option value="cityTwo">Porto União</option>
+                <option value="cityTree">Canoinhas</option>
+                <option value="cityFor">Irineópolis</option>
+            </select>
+        </label><br>
+
+        <label for="sexo">
+            <br><b>Gênero</b><br>
+            <br><input type="radio" name="sexo" value="M">Masculino
+            <br><input type="radio" name="sexo" value="M">Feminino <br><br>
+        </label>
+
+        <label for="preferences">
+            <b>Preferências:</b> <br><br>
+            <input type="checkbox" name="computation" id="1">Computação
+            <br><input type="checkbox" name="physical" id="2">Física
+            <br><input type="checkbox" name="mathematics" id="3">Matemática
+            <br><input type="checkbox" name="portuguese" id="4">Português
+        </label>
+        <br><br><br>
+        <button type="reset" onclick="alert('Formulário enviado!')">Enviar Formulário</button> <!--Verificar sobre botão para enviar formulário e limpar logo em seguida-->
+
+    </Form>
+</body>
+</html>

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Exercício 6 - Aula 13</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <table border="1" style="width: 80%;" cellpadding="10">
+        <tr>
+            <td colspan="5" style="text-align: center;"><b>Formulário de pedidos e refeições</b></td>
+        </tr>
+        <tr>
+            <td colspan="2">Data e hora do pedido:</td>
+            <td colspan="4"><input type="datetime-local" style="width: 38%;"></td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td><b>Categoria</b></td>
+            <td><b>Prato</b></td>
+            <td><b>Quantidade</b></td>
+            <td><b>Observações</b></td>
+            <td><b>Selecionar</b></td>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td rowspan="2">Entrada</td>
+            <td>Salada Verde</td>
+            <td><input type="text" style="width: 95%;"></td>
+            <td><input type="text" style="width: 95%;"></td>
+            <td><input type="checkbox"></td>
+
+            <tr style="text-align: center;">
+                <td>Sopa de legumes</td>
+                <td><input type="text" style="width: 95%;"></td>
+                <td><input type="text" style="width: 95%;"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+        </tr>
+
+        <tr style="text-align: center;">
+            <td rowspan="2">Prato Principal</td>
+            <td>Filé de frango</td>
+            <td><input type="text" style="width: 95%;"></td>
+            <td><input type="text" style="width: 95%;"></td>
+            <td><input type="checkbox"></td>
+
+            <tr style="text-align: center;">
+                <td>Feijoada</td>
+                <td><input type="text" style="width: 95%;"></td>
+                <td><input type="text" style="width: 95%;"></td>
+                <td><input type="checkbox"></td>
+            </tr>
+        </tr>
+
+        <tr style="text-align: center;" >
+            <td rowspan="2">Sobremesa</td>
+            <td>Pudim</td>
+            <td><input type="text" style="width: 95%;"></td>
+            <td><input type="text" style="width: 95%;"></td>
+            <td><input type="checkbox"></td>
+
+            <tr style="text-align: center;">
+                <td>Frutas</td>
+                <td><input type="text" style="width: 95%;"></td>
+                <td><input type="text" style="width: 95%;"></td>
+                <td><input type="checkbox"></td>
+            </tr>            
+        </tr>
+
+        <tr>
+            <td colspan="2"> Forma de entrega</td>
+            <td colspan="3"><input type="radio">Entrega <input type="radio">Retirada no local</td>
+        </tr>
+
+        <tr>
+            <td colspan="2">Avaliação do Cardápio</td>
+            <td colspan="3"><input type="range"></td>
+        </tr>
+
+        <tr>
+            <td colspan="5" style="text-align: center;"><button>Finalizar pedido</button><button type="reset">Limpar pedido</button></td>
+        </tr>
+
+    </table>
+</body>
+</html>
